@@ -1,0 +1,12 @@
+pyspark==3.5.3
+pandas
+numpy
+pyarrow
+xgboost
+lifelines
+optuna
+shap
+mlflow
+scikit-learn
+streamlit
+plotly

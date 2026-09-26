@@ -1,0 +1,27 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+
+# Generated data (regenerate via the pipeline, don't commit)
+data/raw/*.csv
+data/bronze/
+data/silver/
+data/gold/
+
+# MLflow tracking (regenerate by rerunning training)
+mlruns/
+mlflow.db
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Spark
+derby.log
+metastore_db/
