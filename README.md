@@ -40,8 +40,6 @@ These were development and modeling issues in this synthetic-data project. They 
 
 The project was built with a **schema-accurate synthetic loan dataset** based on the structure of the Freddie Mac Single-Family Loan-Level Dataset.
 
-We did **not** attempt to obtain the actual Freddie Mac dataset, and we did not query the FRED API for the macroeconomic series used in the project. Instead, synthetic data was generated locally so that the full data-engineering and modeling workflow could be developed and tested.
-
 The synthetic dataset contains:
 
 - 25,000 loans
